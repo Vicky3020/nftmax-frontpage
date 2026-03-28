@@ -1,0 +1,62 @@
+ @import "tailwindcss";
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+section{
+  position: relative;
+  background: linear-gradient(220deg,rgba(240, 147, 163),rgba(227, 167, 26, 0.621),rgba(234, 49, 234, 0.63),rgba(241, 99, 122, 0.379));
+  overflow-x: hidden; 
+}
+
+
+
+/*body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* background: #000000; 
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+  padding: 2rem;
+  background: #00000044;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  transform: rotateY(-1rem);
+  text-decoration-line: none;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  font-weight: bold;
+  background: rgb(0, 255, 247);
+  /* position: relative; 
+}
+.active {
+  color: rgb(255, 0, 0);
+}
+.page {
+  font-size: x-large;
+  font-family: monospace;
+  font-weight: 500;
+  font-style: italic;
+  font-variant: initial;
+  /* position: absolute; 
+  text-align: start;
+}
+.para{
+  font-weight: 300;
+} */
